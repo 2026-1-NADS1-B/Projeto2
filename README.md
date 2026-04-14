@@ -11,6 +11,7 @@ Vide tutoriais do PI.
 </p>
 
 # Nome do Projeto 
+Sistema Messier – Gestão de Assinaturas de Jogos Educacionais
 
 ## Nome do Grupo: Grupo 2
 
