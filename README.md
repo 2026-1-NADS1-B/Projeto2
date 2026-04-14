@@ -18,7 +18,7 @@ Vide tutoriais do PI.
 
 
 
-## Professores Orientadores:
+## Professores Orientadores: Francisco de Souza Escobar, Renata Muniz, Marcelo Amorim, Katia Bossi, Robson Cardoso, Daniel da Cunha.
 
 ## Descrição
 
@@ -56,9 +56,9 @@ PI-Messier-1ADS/
         │   └── DocumentoAbertura.pdf     # Requisitos funcionais e não funcionais
         │
         └── MatematicaDiscreta/
-            └── RegrasLogica.pdf          # Lógica proposicional, tabela-verdade, cenários
+            └── RegrasLogica.pdf          # Lógica proposicional, tabela-verdade, cenários.
 
-
+```
 
 ## 🛠 Instalação
 
@@ -84,6 +84,7 @@ Coloque código do prompt de comnando se for necessário
 
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+
 
 ## 💻 Configuração para Desenvolvimento
 
