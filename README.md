@@ -30,6 +30,9 @@ Sistema Messier – Gestão de Assinaturas de Jogos Educacionais
 
 ## Descrição
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/070ee677-db75-421d-a23d-d37e73baf023" />
+
+
 
 O projeto consiste no desenvolvimento de um aplicativo desktop para gestão de assinaturas de jogos educacionais, criado para atender a uma demanda da empresa Messier Data & Creative. O sistema tem como foco gerenciar o acesso de escolas de ensino fundamental e médio a uma plataforma de jogos digitais, permitindo o controle de pacotes de jogos, limites de acessos mensais, IPs autorizados e a geração de relatórios de consumo.
 
