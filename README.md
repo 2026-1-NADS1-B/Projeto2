@@ -17,7 +17,7 @@ Sistema Messier – Gestão de Assinaturas de Jogos Educacionais
 
 ## Integrantes: 
 
-| Nome                                  | RA (se houver) |
+| Nome                                  | RA             |
 |---------------------------------------|----------------|
 | Enzo Lemos Souza do Nascimento        | — 26028677     |
 | Vitor de Moura Lima                   | — 23011238     |
