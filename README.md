@@ -15,7 +15,14 @@ Sistema Messier – Gestão de Assinaturas de Jogos Educacionais
 
 ## Nome do Grupo: Grupo 2
 
-## Integrantes: Felipe Rodrigues dos Santos Farias, Felipe Okada Corleto, Enzo Lemos Souza do Nascimento, Vitor de Moura Lima. 
+## Integrantes: 
+
+| Nome                                  | RA (se houver) |
+|---------------------------------------|----------------|
+| Enzo Lemos Souza do Nascimento        | — 26028677     |
+| Vitor de Moura Lima                   | — 23011238     |
+| Felipe Okada Corleto                  | — 26028544     |
+| Felipe Rodrigues dos Santos Farias    | — 26029082     |
 
 
 
@@ -63,28 +70,42 @@ PI-Messier-1ADS/
 
 ## 🛠 Instalação
 
-<b>Android:</b>
+## 🔄 Fluxo Resumido do Sistema (Módulo Escola)
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+1. **Login** – a escola se autentica; o sistema verifica se o pacote está ativo e se o IP de origem é autorizado.
+2. **Catálogo** – exibe apenas os jogos disponíveis no pacote da escola.
+3. **Acesso** – a escola simula o acesso a um jogo; o sistema registra o consumo do mês e bloqueia caso o limite seja atingido.
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+---
 
-<b>Windows:</b>
+## 📦 Principais Funcionalidades (Requisitos Funcionais)
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+- **CRUD de Games** (nome, descrição, tema, faixa etária, ativo/inativo)
+- **CRUD de Pacotes** (nome, lista de games, limite de acessos/mês, preço)
+- **CRUD de Escolas** (dados, pacote ativo, lista de IPs autorizados)
+- **Login** com validação de pacote ativo + IP de origem
+- **Catálogo dinâmico** baseado no pacote da escola
+- **Registro de acesso** (log com data/hora, escola, game, IP, resultado)
+- **Bloqueio automático** ao atingir o limite mensal do pacote
+- **Relatórios**:
+  - Acessos por escola e período
+  - Escolas, pacotes, limite mensal, consumo e percentual de uso
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+---
 
-<b>HTML:</b>
+## 🛠️ Tecnologias Sugeridas
 
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+| Camada            | Tecnologia                                         |
+|-------------------|----------------------------------------------------|
+| Linguagem         | C# (.NET 8 / .NET 9)                               |
+| Interface Desktop | WinForms (recomendado) ou WPF                      |
+| Banco de Dados    | SQLite                                             |
+| Acesso a Dados    | ADO.NET ou Entity Framework Core                   |
+| Versionamento     | Git + GitHub                                       |
+| Modelagem         | Draw.io, StarUML, Lucidchart                       |
+
+---
+
 
 
 ## 💻 Configuração para Desenvolvimento
